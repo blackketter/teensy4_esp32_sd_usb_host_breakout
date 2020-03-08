@@ -37,24 +37,24 @@ Designed in KiCad.
 ![breakout render_back](render_back.png)
 ![schematic](schematic.png)
 
-J1 - Left Side Pinout:
+**J1 - Left Side Pinout:**
 
-1. Teensy D34/SD DAT1
-2. Teensy D35/SD DAT0
+1. Teensy D34 / SD DAT1
+2. Teensy D35 / SD DAT0
 3. GND
-4. Teensy D36/SD CLK
+4. Teensy D36 / SD CLK
 5. Teensy 3.3v
-6. Teensy D37/SD CMD
-7. Teensy D38/SD DAT3
-8. Teensy D39/SD DAT2
-9. Teensy D29/Card Detect
+6. Teensy D37 / SD CMD
+7. Teensy D38 / SD DAT3
+8. Teensy D39 / SD DAT2
+9. Teensy D29 / Card Detect
 10. Teensy D31 (unused)
 11. Teensy D33 (unused)
 12. Teensy D32 (unused)
 13. Teensy D30 (unused)
 14. Teensy VBAT (battery backup)
 
-J3 - Right Side Pinout:
+**J3 - Right Side Pinout:**
 
 1. Teensy VUSB
 2. Teensy USB Host D-
@@ -71,7 +71,7 @@ J3 - Right Side Pinout:
 13. Teensy Program
 14. Teensy On/Off (unused)
 
-J5 - Optional additional pins
+**J5 - Optional additional pins**
 
 15. GND
 16. 3.3v from regulator on breakout board
@@ -82,13 +82,13 @@ J5 - Optional additional pins
 21. ESP32 IO15
 22. ESP32 IO16
 
-J6 - SPI between ESP32 and Teensy
+**J6 - SPI between ESP32 and Teensy**
 
 1. Teensy D9 / ESP32 IO32 (Busy)
 2. Teensy D10 / ESP32 IO5 (CS)
 3. Teensy D11 / ESP32 IO14 (MOSI)
 4. Teensy D12 / ESP32 IO23 (MISO)
 
-J7 - SPI between ESP32 and Teensy (cont.)
+**J7 - SPI between ESP32 and Teensy (cont.)**
 
 1. Teensy D13 / ESP32 IO18 (SCK)
