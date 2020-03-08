@@ -1,6 +1,8 @@
+# Teensy 4.0 ESP32 / USB Host / MicroSD Breakout Board
+
 A jumbo breakout board with ESP32, USB-A host and microSD connectors to mate with the [Teensy 4 Header Breakout Board](https://github.com/blackketter/teensy4_header_breakout).
 
-Additionally, the board includes a space for RTC Battery Holder and provides another Teensy reset/programming button.
+Additionally, the board includes a space for RTC Battery Holder and provides another Teensy reset/programming button (since it covers up the one on the Teensy).
 
 It's designed to mount above or below the Teensy 4 and Header Breakout board on a relatively tall header.
 
@@ -8,17 +10,17 @@ Designed in KiCad.
 
 Notes:
 
-- In progress.
-- [OSHPark order]()
+- Status: Initial in progress.
+- [OSHPark order]() (Coming soon)
 - Download bom/ibom.html and view it with web browser to see bill of materials and placement information.
 
 Options, we got options:
 
-- Three jumpers on the back:
- - JP1 - Short to use Teensy 3.3v to power ESP32
- - JP3 - Cut left gap, bridge right gap to disable D27 as USB Power Enable
- - JP2 - Cut to disable D29 as SD card detect
-- The five pins on J6 & J7 are optional and provide connection to the corresponding pins directly below on Teensy to connect the ESP32 SPI to the Teensy SPI port for high-speed goodness.
+* Three jumpers on the back:
+  * JP1 - Short to use Teensy 3.3v to power ESP32
+  * JP3 - Cut left gap, bridge right gap to disable D27 as USB Power Enable
+  * JP2 - Cut to disable D29 as SD card detect
+  * The five pins on J6 & J7 are optional and provide connection to the corresponding pins directly below on Teensy to connect the ESP32 SPI to the Teensy SPI port for high-speed goodness.  Should be compatible with the Adafruit Airlift firmware.
  
 ![breakout render](render.png)
 ![breakout render_back](render_back.png)
