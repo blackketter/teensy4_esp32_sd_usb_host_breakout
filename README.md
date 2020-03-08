@@ -8,20 +8,31 @@ It's designed to mount above or below the Teensy 4 and Header Breakout board on 
 
 Designed in KiCad.
 
-Notes:
+### Notes:
 
 - Status: Initial in progress.
 - [OSHPark order]() (Coming soon)
 - Download bom/ibom.html and view it with web browser to see bill of materials and placement information.
 
-Options, we got options:
+### Options
 
 * Three jumpers on the back:
-  * JP1 - Short to use Teensy 3.3v to power ESP32
-  * JP3 - Cut left gap, bridge right gap to disable D27 as USB Power Enable
+  * JP1 - Short to use Teensy 3.3v to power ESP32 (instead of onboard 3.3v regulator)
+  * JP3 - Cut left side, bridge right side to disable D27 as USB Power Enable
   * JP2 - Cut to disable D29 as SD card detect
-  * The five pins on J6 & J7 are optional and provide connection to the corresponding pins directly below on Teensy to connect the ESP32 SPI to the Teensy SPI port for high-speed goodness.  Should be compatible with the Adafruit Airlift firmware.
- 
+
+### Connectors
+* J1 and J3 connect to the [Teensy 4 Header Breakout Board](https://github.com/blackketter/teensy4_header_breakout) pins via a header
+* J5 is optional and provides access to the onboard 3.3v regulator
+* J6 & J7 are optional and provide connection to the corresponding pins directly below on Teensy.  These connect the ESP32 SPI to the Teensy SPI port for high-speed goodness.  Should be compatible with the Adafruit Airlift firmware.
+* J2 is a USB-A host connector
+* J4 is a MicroSD push-pull connector
+
+### Additional features
+* Teensy programming button
+* Socket for 12mm lithium backup batter for RTC
+* RGB and White LEDs connected to ESP32 for additional status
+
 ![breakout render](render.png)
 ![breakout render_back](render_back.png)
 ![schematic](schematic.png)

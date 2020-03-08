@@ -501,12 +501,12 @@ F 3 "" H 5150 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP1
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 5D8BA9A0
 P 7950 2400
 F 0 "JP1" H 7950 2605 50  0000 C CNN
 F 1 "Teensy 3.3" H 7950 2514 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7950 2400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7950 2400 50  0001 C CNN
 F 3 "~" H 7950 2400 50  0001 C CNN
 	1    7950 2400
 	1    0    0    -1  
@@ -974,8 +974,8 @@ $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 5E785260
 P 4550 2500
-F 0 "J6" H 4550 2300 50  0000 C CNN
-F 1 "Conn_01x04" H 4350 2200 50  0000 C CNN
+F 0 "J6" H 4550 2200 50  0000 C CNN
+F 1 "Conn_01x04" H 4350 2100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4550 2500 50  0001 C CNN
 F 3 "~" H 4550 2500 50  0001 C CNN
 	1    4550 2500
