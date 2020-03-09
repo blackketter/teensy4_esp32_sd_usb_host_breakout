@@ -10,8 +10,8 @@ Designed in KiCad.
 
 ### Notes:
 
-- Status: Initial in progress.
-- [OSHPark order]() (Coming soon)
+- Status: Version 1.0 board ordered
+- [OSHPark]() (https://oshpark.com/projects/xaSKCWHX)
 - Download bom/ibom.html and view it with web browser to see bill of materials and placement information.
 
 ### Options

@@ -244,6 +244,7 @@ F 0 "J4" H 1600 2517 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 1600 2426 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 3700 2400 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 1650 1800 50  0001 C CNN
+F 4 "HR1941CT-ND‎" H 1650 1700 50  0001 C CNN "Digikey"
 	1    1650 1700
 	-1   0    0    1   
 $EndComp
@@ -390,6 +391,7 @@ F 0 "U3" H 5250 6950 50  0000 C CNN
 F 1 "ESP32-WROOM-32D" H 5600 7050 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 5150 4100 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 4850 5650 50  0001 C CNN
+F 4 "1904-1025-1-ND" H 5150 5600 50  0001 C CNN "Digikey"
 	1    5150 5600
 	1    0    0    -1  
 $EndComp
@@ -635,6 +637,7 @@ F 0 "U2" H 8000 4792 50  0000 C CNN
 F 1 "TLV75733PDBVR" H 8000 4701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8000 4750 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 8000 4450 50  0001 C CNN
+F 4 "296-50414-1-ND" H 8000 4450 50  0001 C CNN "Digikey"
 	1    8000 4450
 	1    0    0    -1  
 $EndComp
@@ -829,6 +832,7 @@ F 0 "BT1" H 4118 2996 50  0000 L CNN
 F 1 "Battery_Cell" H 4118 2905 50  0000 L CNN
 F 2 "BatteryHolder_MPD_BC501SM:BatteryHolder_MPD_BC501SM" V 4000 2960 50  0001 C CNN
 F 3 "~" V 4000 2960 50  0001 C CNN
+F 4 "BC501SM-TRCT-ND‎" H 4000 2900 50  0001 C CNN "Digikey"
 	1    4000 2900
 	-1   0    0    -1  
 $EndComp
@@ -851,6 +855,7 @@ F 0 "SW2" H 7250 2400 50  0000 C CNN
 F 1 "PROGRAM" H 7250 2500 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS810" H 7250 2600 50  0001 C CNN
 F 3 "~" H 7250 2600 50  0001 C CNN
+F 4 "CKN12216-1-ND‎" H 7250 2600 50  0001 C CNN "Digikey"
 	1    7250 2600
 	1    0    0    -1  
 $EndComp
@@ -952,6 +957,7 @@ F 0 "D1" V 6489 5633 50  0000 R CNN
 F 1 "LED" V 6398 5633 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 5750 50  0001 C CNN
 F 3 "~" H 6450 5750 50  0001 C CNN
+F 4 "1516-1085-1-ND" H 6450 5750 50  0001 C CNN "Digikey"
 	1    6450 5750
 	0    -1   -1   0   
 $EndComp
@@ -1006,6 +1012,7 @@ F 0 "D2" H 8750 5947 50  0000 C CNN
 F 1 "LED_RGB" H 8750 5856 50  0000 C CNN
 F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 8750 5400 50  0001 C CNN
 F 3 "~" H 8750 5400 50  0001 C CNN
+F 4 "516-4385-1-ND‎" H 8750 5450 50  0001 C CNN "Digikey"
 	1    8750 5450
 	1    0    0    -1  
 $EndComp
